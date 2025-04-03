@@ -1,0 +1,421 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    padding: 10px 20px;
+}
+.email-link {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+}
+.email-link i {
+    margin-right: 5px;
+    color: #007bff;
+}
+.heading{
+    font-size: 53px;
+    font-weight: bold;
+}
+.heading-2{
+    line-height: 27px;
+    
+}
+.text-1{
+    font-size: 22px;
+}
+.hero-section {
+    background-image: url(../images/home-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 65px 0;
+}
+.form-section {
+    background: white;
+    padding: 40px;
+    color: black;
+    
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 100%;
+}
+.button-dark{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.icon-cover{
+    background-color: #c6c6c6;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* margin-top: 30px; */
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    background: #007bff;
+    color: white;
+    transform: translateY(-5px);
+}
+.toggle-button{
+    margin-top: 1px;
+}
+.welcome-text{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.brand-name{
+    color: #0078D7;
+    font-size: 45px;
+}
+
+.ic{
+    width: 100px;
+    
+    height: 100px;
+    background: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.ic img {
+    width: 70px;
+}
+
+.black-bg {
+    background: black !important;
+}
+
+.special-box {
+    background: #007bff;
+    color: white;
+}
+
+.special-box:hover {
+    background: black;
+}
+.p1{
+    width: 61%;
+    
+}
+
+.our-section {
+    text-align: center;
+    padding: 50px 0;
+    
+   
+}
+.our-box {
+    /* background: ; */
+    border-radius: 10px;
+    box-shadow: 0 0 30px  5px #0000001c;
+    padding: 50px 40px 30px 40px;
+    text-align: center; 
+}
+.check{
+    background-color: #c6c6c6;
+    border-radius: 50%;
+}
+.our-icon {
+    width: 100px;
+    margin-bottom: 10px;
+}
+.btn-preview {
+    background-color: #007bff;
+    border-radius: 30px;
+    color: white;
+}
+.btn-download {
+    background-color: black;
+    border-radius: 30px;
+
+    color: white;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+}
+
+
+.pricing-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.description {
+    color: #777;
+    max-width: 600px;
+    margin: 10px auto 30px;
+}
+
+.pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.pricing-card:hover,
+.pricing-card.active {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.plan-subtitle {
+    font-size: 14px;
+    color: #666;
+}
+.button-1{
+    border-radius: 30px;
+    width: 220px; 
+    font-size: 17px;
+}
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.features li {
+    padding: 5px 0;
+}
+
+.order-btn {
+    background: black;
+    color: white;
+    
+    border-radius: 50px;
+    width: 80%;
+}
+
+.buttons {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.quote-btn {
+    background: #007bff;
+    color: white;
+    width: 220px;
+    border-radius: 50px;
+}
+
+.talk-btn {
+    background: black;
+    color: white;
+    width: 220px;
+    border-radius: 50px;
+}
+
+.order-section {
+   
+    background: url('/images/cta-bg.webp') center/cover no-repeat;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.order-section::before {
+    content: "";
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 123, 255, 0.8); /* نیلا اوورلے */
+}
+/* Default Process Card Styling */
+.process-card {
+    background: rgb(184, 183, 183);
+    box-shadow:  0 0 20px 2px #0000001f;
+    padding: 20px;
+    height: 200px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Process Icon Styling */
+.process-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.p2{
+    color: gray; font-size: 14px;
+}
+/* Default Step Badge - Hidden */
+.step-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show Step Badge on Hover */
+.process-card:hover .step-badge {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Hover Effect */
+.process-card:hover {
+    background: #007bff;
+    color: white;
+}
+
+.process-card:hover .process-icon {
+    color: white;
+}
+
+/* Active Card Styling */
+.process-card.active {
+    background: #007bff;
+    color: white;
+}
+
+.process-card.active .process-icon {
+    color: white;
+}
+
+/* Step Badge */
+.step-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.li1{
+    font-size: 13px;
+}
+
+.award-card {
+    text-align: center;
+    padding: 10px;
+}
+.main-img{
+    width: 100%;
+}
+.award-card img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.award-card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.award-card p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.footer {
+    background-color: #0078D7;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .contact-icons {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.footer .payment-icons img {
+    width: 50px;
+    margin-right: 5px;
+}
+.footer .copyright {
+    border-top: 1px solid #ffffff50;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+  .toggle-button{
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width:414px) {
+    .heading{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .button-1{
+        border-radius: 30px;
+        width: 190px; 
+        font-size: 17px;
+    }
+}

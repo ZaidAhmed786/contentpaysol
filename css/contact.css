@@ -1,0 +1,39 @@
+.contact-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+    background-color: black;
+    color: white;
+    height: 455px;
+    padding: 40px;
+    border-radius: 8px;
+}
+.contact-info h5 {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+@media screen and (max-width: 768px) {
+    .contact-info {
+        background-color: black;
+        color: white;
+        height: auto;
+        padding: 40px;
+        border-radius: 8px;
+    }
+}
